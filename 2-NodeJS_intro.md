@@ -24,8 +24,8 @@ Hit enter to all the questions to get the default package.json template, that lo
   "license": "ISC"
 }
 ```
-Here you have the basic data for NPM to run. The most important tags in this file for now are 
-- "main": Especifies wich file to look upon Node starts to run. 
+Here you have the basic data for NPM to run. The most important tags in this file for now are
+- "main": Especifies wich file to look upon Node starts to run.
 - "scripts": Tells your computer wich comands to run for a certain alias. Usually there's a command "start" which tells our computer the commands to run to get the server up and running.
 - "dependencies": You got me. It's not in the file still but this is maybe the most importnat tag, it specifies what NPM need to install in order to run the project. It will be added automatically when installing dependencies.
 
@@ -38,13 +38,13 @@ If you are willing to install a dependency and save it to the package.json file 
 ```
 npm install <dependencyName> --save
 ```
-All the dependencies are installed in a folder called *node_modules*. 
-
+And the best thing about NPM is that when we want to install all the dependencies listed in a package.json file you only have to run
+```
+npm install
+```
+And you will install all the dependencies listed there. All the dependencies are installed in a folder named **node_modules**
 ## Importing a module
 Like in any progrmming language Node.js has it's way to import the libraries we just installed, it's done like this
 ```javascript
 var coolModule = require('coolModule');
 ```
-
-
-
