@@ -1,10 +1,6 @@
 # FullStack course
 
-## First real server
-For this exercise we will need [Postman](https://www.getpostman.com)
-<Postman image>
-
-## Database
+## MySQL server
 We will be using mysql as a database, to make it quick & easy install it via Homebrew by running
 ```
 brew install mysql
