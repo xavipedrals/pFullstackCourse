@@ -48,3 +48,4 @@ Like in any progrmming language Node.js has it's way to import the libraries we 
 ```javascript
 var coolModule = require('coolModule');
 ```
+NodeJS has built-in modules that you can import without having installed them previously, [here](https://www.w3schools.com/nodejs/ref_modules.asp) you have a list of them.
