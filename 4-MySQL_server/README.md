@@ -75,3 +75,48 @@ function createQuote2(author, body) {
   })
 }
 ```
+
+## Make it real
+Now to separate concepts and to have cleaner code what we will do is start by creating a file named dbConnection.js, there we will add this code:
+```javascript
+var mysql = require('mysql');
+
+var pool = mysql.createPool({
+  host: 'localhost',
+  user: 'root',
+  password: 'root',
+  database: 'quotedb'
+});
+
+module.exports = pool;
+```
+This is a way of creating connections to our database by pooling requests (is a good practise).
+Now we can make Models of different concepts by using this module. Let's create a file named quoteModel.js and add this code:
+```javascript
+var db = require('../dbConnection');
+
+var QuoteModel = {
+  //Add some db functionallity here
+}
+
+};
+
+module.exports = QuoteModel;
+```
+
+Now we need to add operations to manage our db in this Model. We will execute some queries and callback with the results. Here is the createTable and getAllQuotes operation:
+
+```javascript
+var QuoteModel = {
+    createTable: function (callback) {
+        return db.query("CREATE TABLE IF NOT EXISTS quotes(\n" +
+            "  id int PRIMARY KEY auto_increment,\n" +
+            "  author VARCHAR(255) NOT NULL,\n" +
+            "  body varchar(255) NOT NULL,\n" +
+            "  author_photo varchar(255));", callback);
+    },
+    getAllQuotes: function(callback) {
+        return db.query("SELECT * FROM quotes", callback);
+    }
+};
+```

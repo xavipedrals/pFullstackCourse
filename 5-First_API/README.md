@@ -84,7 +84,12 @@ quotesRouter.post('/', function(req, res) {
 });
 ```
 
-Now let's return a list of all the quotes that we have on the DB. Our get method should look like
+Now let's return a list of all the quotes that we have on the DB. First add an import to our DB Model module at the top of the file
+```javascript
+var QuoteModel = require('../Models/quotesModel');
+```
+
+Then our get method should look like
 ```javascript
 quotesRouter.get('/', function (req, res) {
       QuoteModel.getAllQuotes(function(err, results) {
