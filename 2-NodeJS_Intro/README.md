@@ -1,9 +1,9 @@
-# FullStack course
-
-## Node.js introduction
+# Node.js introduction
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
 
-<Node Image>
+<p align="center">
+<img src="https://raw.githubusercontent.com/xavipedrals/fullStackCourse/master/Resources/nodejs-logo.png" width="40%" margin="auto">
+</p>
 
 ## NPM
 Node comes along with NPM, standing as Node Package Manager. This package manager allows us to deal with dependencies and allows us to have all of our dependencies in a file called package.json. To create this file simply run

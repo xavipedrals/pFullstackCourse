@@ -4,7 +4,7 @@
 Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/xavipedrals/blabla/master/git-logo.png" width="30%" margin="auto">
+<img src="https://raw.githubusercontent.com/xavipedrals/fullStackCourse/master/Resources/git-logo.png" width="40%" margin="auto">
 </p>
 
 ### Alias
@@ -59,5 +59,3 @@ Go to OhMyZsh and install it https://github.com/robbyrussell/oh-my-zsh. Now you 
 
 ### Gitignore
 Configure a .gitgnore going to [gitignore.io](https://www.gitignore.io) and writing Xcode and Swift.
-
-

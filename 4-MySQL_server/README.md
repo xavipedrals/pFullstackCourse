@@ -5,7 +5,7 @@ brew install mysql
 ```
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/xavipedrals/fullStackCourse/master/Resources/mysql_logo.png" width="30%" margin="auto">
+<img src="https://raw.githubusercontent.com/xavipedrals/fullStackCourse/master/Resources/mysql_logo.png" width="40%" margin="auto">
 </p>
 
 ## MySQL client
@@ -45,7 +45,7 @@ If everything went right you shold see "Connected to MYSQL!" printed on your con
 
 ## Databse operations
 
-### Tip
+### Tip 😉
 If you want to try out your SQL statements to ensure they are correct you can try them out on [SQLFiddle](http://sqlfiddle.com).
 
 ### Creating a table
@@ -76,7 +76,7 @@ function createQuote2(author, body) {
 }
 ```
 
-## Make it real
+## Do it right 👍🏼
 Now to separate concepts and to have cleaner code what we will do is start by creating a file named dbConnection.js, there we will add this code:
 ```javascript
 var mysql = require('mysql');

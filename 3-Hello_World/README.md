@@ -1,6 +1,4 @@
-# FullStack course
-
-## Hello world
+# Hello world
 Okay, let's do this fast, I know you want to get to the real thing. Below you have the code to put in your index.js
 ```javascript
 var http = require("http");

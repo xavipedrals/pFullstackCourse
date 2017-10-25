@@ -1,6 +1,9 @@
 # First API
 For this lesson we will need [Postman](https://www.getpostman.com).
-<Postman image>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/xavipedrals/fullStackCourse/master/Resources/postman-logo+text-320x132.png" width="40%" margin="auto">
+</p>
 
 ## HTTP requests
 (Some super basic theory)
