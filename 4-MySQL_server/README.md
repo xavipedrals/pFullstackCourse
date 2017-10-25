@@ -1,10 +1,12 @@
-# FullStack course
-
-## MySQL server
+# MySQL server
 We will be using mysql as a database, to make it quick & easy install it via Homebrew by running
 ```
 brew install mysql
 ```
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/xavipedrals/fullStackCourse/master/Resources/mysql_logo.png" width="30%" margin="auto">
+</p>
 
 ## MySQL client
 To naviagte a mysql database you can learn and memorize the comands or use a GUI tool to help you. If you are on macOS I would choose [Sequel Pro](https://sequelpro.com).
