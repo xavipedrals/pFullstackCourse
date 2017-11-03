@@ -34,5 +34,14 @@ For example this could be an expression:
 ```
 If angular is working correctly you should be seeing **The sky is truely blue**.
 
+### Directives
+
 ### Modules
 Modules are simply an elegant way to separate your code so it can be more readable and easier to debug. To declare a module simply make a .js file
+
+### Router
+
+### Controllers
+
+### Services
+$http
